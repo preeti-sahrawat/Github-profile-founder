@@ -1,0 +1,57 @@
+body{
+    background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wySn?ver=3568")no-repeat center center/cover;
+    width:100vw;
+    height:100vh;
+}
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    
+}
+
+.card{
+    width:50vw;
+    height:60vh;
+    /* border:2px solid greenyellow; */
+    text-align: center;
+    background-color: rgb(187, 65, 65,0.5);
+    border-radius: 4vw;
+
+}
+
+@media (max-width:767px) {
+
+    .card{
+        width:90vw;
+        /* margin: auto; */
+    }
+    
+}
+input{
+    width:300px;
+    text-align: center;
+    height:25px;
+    border-radius: 1vh;
+    display: block;
+    margin:15px auto;
+}
+
+button{
+    width:100px;
+    height:45px;
+    border-radius:2vh ;
+    background-image: linear-gradient(to right,rgb(160, 84, 84),rgb(177, 45, 67),rgb(230, 103, 0));
+    color: white;
+    font-family: cursive;
+    font-size: large;
+
+}
+li{
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
